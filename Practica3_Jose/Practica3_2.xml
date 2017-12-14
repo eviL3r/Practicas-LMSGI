@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tabla id_tabla="Generaciones y Características">
+	<estudio> 
+		<tipo>Datos generacionales en USA</tipo>
+		<fuente id_entidad="KPCB" url="http://www.kpcb.com/internet-trends"/>
+	</estudio>
+	<generacion id_gen="Silenciosa">
+		<anoinicio unidad="Año">1928</anoinicio>
+		<anofin unidad="Año">1945</anofin>
+		<porcentaje_estudios_hombres unidad="%">12</porcentaje_estudios_hombres>
+		<porcentaje_estudios_mujeres unidad="%">7</porcentaje_estudios_mujeres>
+		<nivel_empleo_hombres unidad="%">72</nivel_empleo_hombres>
+		<nivel_empleo_mujeres unidad="%">38</nivel_empleo_mujeres>
+		<poblacion unidad="Millones">35</poblacion>
+		<ingreso_medio unidad="$"></ingreso_medio>
+		<porcentaje_casados unidad="%">64</porcentaje_casados>
+	</generacion>
+	<generacion id_gen="Baby Boom">
+		<anoinicio unidad="Año">1946</anoinicio>
+		<anofin unidad="Año">1964</anofin>
+		<porcentaje_estudios_hombres unidad="%">17</porcentaje_estudios_hombres>
+		<porcentaje_estudios_mujeres unidad="%">14</porcentaje_estudios_mujeres>
+		<nivel_empleo_hombres unidad="%">78</nivel_empleo_hombres>
+		<nivel_empleo_mujeres unidad="%">60</nivel_empleo_mujeres>
+		<poblacion unidad="Millones">61</poblacion>
+		<ingreso_medio unidad="$">61.115,00</ingreso_medio>
+		<porcentaje_casados unidad="%">49</porcentaje_casados>
+	</generacion>
+	<generacion id_gen="Generación X">
+		<anoinicio unidad="Año">1965</anoinicio>
+		<anofin unidad="Año">1980</anofin>
+		<porcentaje_estudios_hombres unidad="%">18</porcentaje_estudios_hombres>
+		<porcentaje_estudios_mujeres unidad="%">20</porcentaje_estudios_mujeres>
+		<nivel_empleo_hombres unidad="%">78</nivel_empleo_hombres>
+		<nivel_empleo_mujeres unidad="%">69</nivel_empleo_mujeres>
+		<poblacion unidad="Millones">60</poblacion>
+		<ingreso_medio unidad="$">64.469,00</ingreso_medio>
+		<porcentaje_casados unidad="%">38</porcentaje_casados>
+	</generacion>
+	<generacion id_gen="Millenials">
+		<anoinicio unidad="Año">1981</anoinicio>
+		<anofin unidad="Año">1996</anofin>
+		<porcentaje_estudios_hombres unidad="%">21</porcentaje_estudios_hombres>
+		<porcentaje_estudios_mujeres unidad="%">27</porcentaje_estudios_mujeres>
+		<nivel_empleo_hombres unidad="%">68</nivel_empleo_hombres>
+		<nivel_empleo_mujeres unidad="%">63</nivel_empleo_mujeres>
+		<poblacion unidad="Millones">61</poblacion>
+		<ingreso_medio unidad="$">62.066,00</ingreso_medio>
+		<porcentaje_casados unidad="%">28</porcentaje_casados>
+	</generacion>
+</tabla>

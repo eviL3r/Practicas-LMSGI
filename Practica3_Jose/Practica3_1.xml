@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tiempo fecha="19/10/17">
+	<comunidad idcom="CYL"> Castilla y León
+		<provincia idprov="PAL"> Palencia
+			<localidad idlocal="Villamuriel De Cerrato" id_dia="Jueves">
+				El Tiempo En Villamuriel De Cerrato
+				<temperaturaactual hora="8:42">9°C</temperaturaactual>
+				<previsionhoras>
+					<prevision hora="1:00">
+						<temperatura unidad="°C">9</temperatura>
+						<precipitaciones unidad="%">6</precipitaciones>
+						<viento unidad="km/h" direccion_viento="noreste">8</viento>
+					</prevision>
+					<prevision hora="4:00">
+						<temperatura unidad="°C">7</temperatura>
+						<precipitaciones unidad="%">0</precipitaciones>
+						<viento unidad="km/h" direccion_viento="noreste">5</viento>
+					</prevision>
+					<prevision hora="7:00">
+						<temperatura unidad="°C">5</temperatura>
+						<precipitaciones unidad="%">7</precipitaciones>
+						<viento unidad="km/h" direccion_viento="noreste">5</viento>
+					</prevision>
+					<prevision hora="10:00">
+						<temperatura unidad="°C">4</temperatura>
+						<precipitaciones unidad="%">7</precipitaciones>
+						<viento unidad="km/h" direccion_viento="noreste">5</viento>
+					</prevision>
+					<prevision hora="13:00">
+						<temperatura unidad="°C">11</temperatura>
+						<precipitaciones unidad="%">0</precipitaciones>
+						<viento unidad="km/h" direccion_viento="noreste">10</viento>
+					</prevision>
+					<prevision hora="16:00">
+						<temperatura unidad="°C">16</temperatura>
+						<precipitaciones unidad="%">0</precipitaciones>
+						<viento unidad="km/h" direccion_viento="noreste">14</viento>
+					</prevision>
+					<prevision hora="19:00">
+						<temperatura unidad="°C">16</temperatura>
+						<precipitaciones unidad="%">17</precipitaciones>
+						<viento unidad="km/h" direccion_viento="noreste">16</viento>
+					</prevision>
+					<prevision hora="22:00">
+						<temperatura unidad="°C">13</temperatura>
+						<precipitaciones unidad="%">3</precipitaciones>
+						<viento unidad="km/h" direccion_viento="noreste">11</viento>
+					</prevision>	
+				</previsionhoras>
+				<previsiondias>
+					<prevision id_dia_prev="Jueves" tiempo="Parcialmente Nublado"  dia_actual="hoy">
+						<temperatura tempmaxprev="17" tempminprev="9" unidad="°C"/>
+					</prevision>
+					<prevision id_dia_prev="Viernes" tiempo="Muy Nublado">
+						<temperatura tempmaxprev="22" tempminprev="12" unidad="°C"/>
+					</prevision>
+					<prevision id_dia_prev="Sábado" tiempo="Parcialmente Nublado">
+						<temperatura tempmaxprev="17" tempminprev="4" unidad="°C"/>
+					</prevision>
+					<prevision id_dia_prev="Domingo" tiempo="Parcialmente Nublado">
+						<temperatura tempmaxprev="17" tempminprev="3" unidad="°C"/>
+					</prevision>
+					<prevision id_dia_prev="Lunes" tiempo="Parcialmente Nublado">
+						<temperatura tempmaxprev="21" tempminprev="5" unidad="°C"/>
+					</prevision>
+					<prevision id_dia_prev="Martes" tiempo="Parcialmente Nublado">
+						<temperatura tempmaxprev="23" tempminprev="6" unidad="°C"/>
+					</prevision>
+					<prevision id_dia_prev="Miercoles" tiempo="Parcialmente Nublado">
+						<temperatura tempmaxprev="23" tempminprev="8" unidad="°C"/>
+					</prevision>
+					<prevision id_dia_prev="Jueves" tiempo="Parcialmente Nublado">
+						<temperatura tempmaxprev="23" tempminprev="8" unidad="°C"/>
+					</prevision>
+				</previsiondias>
+			</localidad>
+		</provincia>
+	</comunidad>
+</tiempo>

@@ -1,0 +1,2 @@
+<!ELEMENT geografia (pais+)>
+<!ELEMENT pais

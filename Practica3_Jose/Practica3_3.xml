@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<datos concepto="Datos de las personas:">
+	<persona id_persona="p1" amigos="p2 p3 p4 p5">
+		<nombre>Miguel</nombre>
+		<apellidos>Santos Carracedo</apellidos>
+		<edad unidad="años">35</edad>
+		<tlf_mvl>658341531</tlf_mvl>
+		<tlf_fijo>979777098</tlf_fijo>
+	</persona>
+	<persona id_persona="p2" amigos="p1 p3 p4">
+		<nombre>Samuel</nombre>
+		<apellidos>Arteta Lozano</apellidos>
+		<edad unidad="años">43</edad>
+		<tlf_mvl></tlf_mvl>
+		<tlf_fijo></tlf_fijo>
+	</persona>
+	<persona id_persona="p3" amigos="p1 p2 p4">
+		<nombre>Andrea</nombre>
+		<apellidos>Melaki Silva</apellidos>
+		<edad unidad="años">28</edad>
+		<tlf_mvl>652978112</tlf_mvl>
+		<tlf_fijo></tlf_fijo>
+	</persona>
+	<persona id_persona="p4" amigos="p1 p2 p3 p5">
+		<nombre>Paula</nombre>
+		<apellidos>Serra Valbuena</apellidos>
+		<edad unidad="años">29</edad>
+		<tlf_mvl>623819123</tlf_mvl>
+		<tlf_mvl_2>632145121</tlf_mvl_2>
+		<tlf_fijo>979707861</tlf_fijo>
+	</persona>
+	<persona id_persona="p5" amigos="p1 p4">
+		<nombre>Ricardo</nombre>
+		<apellidos>Arranz Socuéllamos</apellidos>
+		<edad unidad="años">34</edad>
+		<tlf_mvl>659987231</tlf_mvl>
+		<tlf_fijo></tlf_fijo>
+	</persona>
+</datos>

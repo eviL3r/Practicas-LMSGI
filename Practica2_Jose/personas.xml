@@ -1,0 +1,12 @@
+<?xml version="1.0"	encoding="UTF-8" ?>
+<!DOCTYPE personas SYSTEM "reglasPersonas.dtd">
+<personas>
+	<persona>
+		<nombre>Jose</nombre>
+		<apellido>González</apellido>
+	</persona>
+	<persona>
+		<nombre>Isaac</nombre>
+		<apellido>Newton</apellido>
+	</persona>
+</personas>

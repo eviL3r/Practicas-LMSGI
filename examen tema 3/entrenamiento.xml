@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entrenamiento SYSTEM "entrenamiento_JOSE.dtd">
+<entrenamiento>
+    <tipos deporte="bici">
+        <tipo_entrenamiento id_tipo="t1" duración="20">
+            <título>Calentamiento 20 minutos</título>
+            <descripción>
+                <detalles>
+                    Calentamiento oficial de British Cycling. <enlace doc="pdf">https://www.britishcycling.org.uk/zuvvi/media/bc_files/sportivetrainingplans/20_MINUTE_WARM_UP.pdf</enlace>
+                </detalles>
+                <ejercicio cadencia="90" tiempo="5" zona="z2"/>
+                <ejercicio cadencia="95" tiempo="2" zona="z2"/>
+                <ejercicio cadencia="100" tiempo="2" zona="z2"/>
+                <ejercicio cadencia="105" tiempo="2" zona="z3" />
+                <ejercicio cadencia="110" tiempo="1.5" />
+                <ejercicio cadencia="120-130" tiempo=".5" />
+                <repeticion veces="3">
+                    <ejercicio cadencia="90" tiempo="1" zona="z2" />
+                    <ejercicio cadencia="MAX" tiempo=".1" zona="z4"/>
+                </repeticion>
+                <ejercicio cadencia="90" tiempo="3" />
+                <comentario>
+                    Es necesario un equipo de control de la cadencia
+                </comentario>
+            </descripción>
+        </tipo_entrenamiento>
+        <tipo_entrenamiento id_tipo="t2" duración="10">
+            <título>Calentamiento simple</título>
+            <detalles>
+                Acelerar la cadencia hasta llegar a 100rpm progresivamente al final de los 10 minutos
+            </detalles>
+            <comentario>
+                Es el calentamiento más simple
+            </comentario>
+        </tipo_entrenamiento>
+        <tipo_entrenamiento id_tipo="t3" duración="75">
+            <título>Plato grande y baja cadencia</título>
+            <descripción>
+                <detalles>Entrenamiento para reforzar músculos disponible en <enlace doc="pdf">https://www.britishcycling.org.uk/zuvvi/media/bc_files/sportivetrainingplans/outdoor_sessions/IZ_Rollers_Sessions_Big_Gear_Low_Cadence_.pdf</enlace>, dentro del programa de entrenamientos de invierno <enlace>https://www.britishcycling.org.uk/knowledge/article/izn20151005-Supporting-documents-Outdoor-training-sessions---supporting-documents-0</enlace>
+                </detalles>
+                <bloque_ejercicios referencia="t1" />
+                <repeticion veces="5">
+                    <ejercicio cadencia="50-60" tiempo="5" zona="z5"/>
+                    <ejercicio cadencia="90" tiempo="3" zona="z3"/>
+                </repeticion>
+                <ejercicio cadencia="50-60" tiempo="5" zona="z5"/>
+                <comentario>
+                    Se trabaja con mucho esfuerzo cuando se baja la cadencia
+                </comentario>
+            </descripción>
+        </tipo_entrenamiento>
+        <tipo_entrenamiento id_tipo="t4" duración="40">
+            <título>Doble calentamiento</título>
+            <descripción>
+                <detalles>Calentamiento largo que dobla al habitual de British Cycling</detalles>
+                <repeticion veces="2">
+                    <bloque_ejercicios referencia="t1" />
+                </repeticion>
+            </descripción>
+        </tipo_entrenamiento>
+        <tipo_entrenamiento id_tipo="t5" duración="120">
+            <título>Salida libre</título>
+            <detalles>Simplemente es una salida de dos horas sin plan previo</detalles>
+        </tipo_entrenamiento>
+        <tipo_entrenamiento id_tipo="t6" duración="140">
+            <título>Salida libre con calentamiento</título>
+            <descripción>
+                <detalles>Salida libre pero con aceleramiento de latido debido a un calentamiento inicial</detalles>
+                <bloque_ejercicios referencia="t1" />
+                <bloque_ejercicios referencia="t6" />
+            </descripción>
+        </tipo_entrenamiento>
+    </tipos>
+    <ejercicios_validados numeros="t1 t3 t4 t6" />
+</entrenamiento>

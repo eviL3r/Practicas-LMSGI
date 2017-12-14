@@ -1,0 +1,34 @@
+<!ELEMENT juego_de_tronos (temporada+,casas,personajes)>
+<!ELEMENT temporada (número,capítulo+)>
+<!ELEMENT número (#PCDATA)>
+<!ELEMENT capítulo (título,trama+)>
+        <!ATTLIST capítulo número ID #REQUIRED>
+<!ELEMENT título (#PCDATA)>
+<!ELEMENT trama ((hay_alianza+,aparición+,aparición+,aparición+)|
+        (aparición+,hay_alianza+,aparición+,aparición+)|
+        (aparición+,aparición+,hay_alianza+,aparición+)|
+        (aparición+,aparición+,aparición+,hay_alianza+),
+        (negrita?,cursiva?))>
+<!ELEMENT negrita (cursiva?)>
+<!ELEMENT cursiva (negrita?)>
+<!ELEMENT hay_alianza EMPTY>
+<!ATTLIST hay_alianza números IDREFS #REQUIRED>
+<!ELEMENT aparición EMPTY>
+<!ATTLIST aparición número IDREF #REQUIRED
+                    muere (Sí|No)"No" #REQUIRED>
+<!ELEMENT casas (casa+)?>
+<!ELEMENT casa EMPTY>
+<!ATTLIST casa número ID #REQUIRED
+               nombre NMTOKEN #REQUIRED
+               lema CDATA #REQUIRED
+               estandarte CDATA #REQUIRED>
+<!ELEMENT personajes (personaje+,personaje+,personaje+)>
+<!ELEMENT personaje (nombre,apellido?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ATTLIST personaje tipo (Humano|Animal "Humano" #IMPLIED
+                    casa IDREF #IMPLIED
+                    número ID #REQUIRED>
+
+
+

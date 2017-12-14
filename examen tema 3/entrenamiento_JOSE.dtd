@@ -1,0 +1,28 @@
+<!ELEMENT entrenamiento (tipos,ejercicios_validados)>
+<!ELEMENT tipos (tipo_entrenamiento*)>
+<!ATTLIST tipos deporte (bici|correr|nadar)"correr" #REQUIRED>
+<!ELEMENT tipo_entrenamiento (título,descripción?,detalles+,comentario?)>
+<!ELEMENT título (#PCDATA)>
+<!ELEMENT detalles (enlace?)>
+<!ELEMENT enlace (#PCDATA)>
+<!ATTLIST enlace doc CDATA #IMPLIED>
+<!ELEMENT comentario (#PCDATA)>
+<!ATTLIST tipo_entrenamiento id_tipo ID #REQUIRED
+                             duración NMTOKEN #REQUIRED>
+<!ELEMENT descripción (detalles+,repeticion?,ejercicio?,bloque_ejercicios?,comentario?)|
+                        (repeticion?,detalles+,ejercicio?,bloque_ejercicios?,comentario?)|
+                        (repeticion?,ejercicio?,detalles+,bloque_ejercicios?,comentario?)|
+                        (repeticion?,ejercicio?,bloque_ejercicios?,detalles+,comentario?)|
+                        (repeticion?,detalles+,bloque_ejercicios?,ejercicio?,comentario?)|
+                        (bloque_ejercicios?,ejercicio?,repeticion?,detalles+,comentario?)>
+<!ELEMENT ejercicio EMPTY>
+<!ATTLIST ejercicio cadencia NMTOKEN #IMPLIED
+                    tiempo NMTOKEN #IMPLIED
+                    zona (z1|z2|z3|z4|z5) #IMPLIED>
+<!ELEMENT bloque_ejercicios EMPTY>
+<!ATTLIST bloque_ejercicios referencia IDREF #REQUIRED>
+<!ELEMENT repeticion ((ejercicio,bloque_ejercicios)|(ejercicio|bloque_ejercicios),
+                      (bloque_ejercicios,ejercicio)|(bloque_ejercicios|ejercicio))>
+<!ATTLIST repeticion veces NMTOKEN #REQUIRED>
+<!ELEMENT ejercicios_validados EMPTY>
+<!ATTLIST ejercicios_validados numeros IDREFS #REQUIRED>

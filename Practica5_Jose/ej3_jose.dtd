@@ -1,0 +1,16 @@
+<!ELEMENT libro_instalacion (personal, instalacion+)>
+    <!ATTLIST libro_instalacion numero CDATA #REQUIRED>
+<!ELEMENT personal (instalador+)>
+    <!ATTLIST instalador id ID #REQUIRED>
+    <!ATTLIST instalador cargo (encargado|operador|asistente) #REQUIRED>
+<!ELEMENT instalador (#PCDATA)>
+<!ELEMENT instalacion (comentarios?,instaladores, comentarios?, componentes?, comentarios?)>
+    <!ATTLIST instalacion id ID #REQUIRED>
+    <!ATTLIST instalacion fecha CDATA #IMPLIED>
+<!ELEMENT instaladores EMPTY>
+    <!ATTLIST refs IDREFS #REQUIRED>
+<!ELEMENT comentarios (#PCDATA)>
+<!ELEMENT componentes (comp+)>
+<!ELEMENT comp (#PCDATA)>
+    <!ATTLIST comp precio CDATA #REQUIRED>
+

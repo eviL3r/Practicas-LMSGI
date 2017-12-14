@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<empresa>
+	<departamento>
+		<nombre>ventas</nombre>
+			<empleado id="123" puesto="responsable">
+				<nombre>Javier Álvarez Santos</nombre>
+				<direccion>C/Mayor 13</direccion>
+				<tlf>979-10-17-18</tlf>
+				<estadocivil>soltero</estadocivil>
+				<historial>
+					<fechacontrato puesto="jefe de produccion">
+						<desde>12/03/2008</desde>
+						<hasta>03/01/2011</hasta>
+						<puesto>jefe de produccion</puesto>
+					</fechacontrato>
+					<fechacontrato puesto="jefe de ventas">
+						<desde>04/01/2011</desde>
+						<puesto>jefe de ventas</puesto>
+					</fechacontrato>
+				</historial>		
+			</empleado>
+			<empleado id="90" puesto="trabajador" id_jefe="123">
+				<nombre>Ana Santos Crespo</nombre>
+				<direccion>C/Jardines 12 1ºB</direccion>
+				<tlf>979-77-76-75</tlf>
+				<estadocivil>casada</estadocivil>
+				<historial>
+					<fechacontrato puesto="auxiliar administrativo">
+						<desde>08/04/2009</desde>
+						<hasta>12/03/2010</hasta>
+						<puesto>auxiliar administrativo</puesto>
+					</fechacontrato>
+					<fechacontrato puesto="comercial">
+						<desde>13/03/2009</desde>
+						<hasta>12/03/2010</hasta>
+						<puesto>comercial</puesto>
+					</fechacontrato>
+					<fechacontrato puesto="coordinadora de ventas">
+						<desde>13/03/2010</desde>
+					</fechacontrato>
+				</historial>
+			</empleado>
+			<empleado id="150" puesto="trabajador" id_jefe="90">
+				<nombre>Luis Santana González</nombre>
+				<direccion>Avda. Cardenal Cisneros</direccion>
+				<tlf>979-10-76-52</tlf>
+				<estadocivil>casado</estadocivil>
+				<historial>
+					<fechacontrato puesto="comercial">
+						<desde>08/09/2010</desde>
+					</fechacontrato>
+				</historial>	
+			</empleado>
+		<nombre>produccion</nombre>
+			<empleado id="19" puesto="responsable">
+				<nombre>Lorena Villanueva Herrero</nombre>
+				<direccion>C/Mayor 113 2ºF </direccion>
+				<tlf>979-80-76-71</tlf>
+				<estadocivil>soltera</estadocivil>
+				<historial>
+					<fechacontrato puesto="coordinadora de produccion">
+						<desde>04/05/2006</desde>
+						<hasta>24/06/2009</hasta>
+						<puesto>coordinadora de produccion</puesto>
+					</fechacontrato>
+					<fechacontrato puesto="jefa de produccion">
+						<desde>25/06/2009</desde>
+						<puesto>jefa de produccion</puesto>
+					</fechacontrato>
+				</historial>
+			</empleado>
+			<empleado id="201" puesto="trabajador" id_jefe="19">
+				<nombre>Victor Suárez Losande</nombre>
+				<direccion>C/Los Tintes 3 1ºC</direccion>
+				<tlf>979-10-10-15</tlf>
+				<estadocivil>casado</estadocivil>
+				<historial>
+					<fechacontrato puesto="coordinador de produccion">
+						<desde>25/06/2009</desde>
+						<puesto>coordinador de produccion</puesto>
+					</fechacontrato>
+				</historial>
+			</empleado>
+	</departamento>
+</empresa>
