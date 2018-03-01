@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin|Cormorant+Garamond');
+body{
+    background-color: #accdfb;
+    background-image: url("imagenes/fondo.png");
+    background-position: left;
+    background-repeat: repeat-y;
+    padding-left: 150px;
+}
+h1{
+    font-weight: normal;
+    background-image: url("imagenes/girasolesMiniatura.jpg");
+    font-family: 'aladin',cursive;
+    background-color: #255089;
+    color: white;
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    margin-left:-150px
+}
+figure {
+    border: white 1px solid;
+    padding: 5px;
+    margin: -2px;
+    
+}
+figure figcaption{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-family: Verdana,sans-serif;
+
+}
+h2 {
+    font-size: 40px;
+    color: white;
+    font-family: 'aladin', cursive;
+    text-shadow: black 5px 5px 5px;
+    font-weight: normal;
+    border-bottom: solid white;
+}
+h3{
+    font-family: 'aladin', cursive;
+    font-size: 30px;
+    color: white;
+    text-shadow: black 5px 5px 5px;
+    font-weight: normal;
+}
+p {
+    font-family: 'Garamond', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul{
+    list-style-image: url("imagenes/pincel.png");
+    border: white 2px solid;
+    background-color: #142141;
+}
+li{
+    margin: 20px;
+    border: black 2px solid;
+    color: white;
+    background-color: #142141;
+    font-size: 30px;
+}
+li:hover{
+    background-color: #547089;
+    font-weight: bold;
+    font-size: 30px;
+}
+a{
+    color: white;
+}
