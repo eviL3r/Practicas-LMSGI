@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cantarell');
+
+body{
+    background-image: url("img/parquet.jpg");
+    margin: 25px;
+}
+h1{
+    font-family:'anton',sans-serif;
+    font-size:250px;
+    color: white;
+    background: linear-gradient(90deg,#042b47,#660c26);
+    text-align: center;
+    margin: 0;
+}
+#OESTE{
+    background: #e8a2b6;
+    background-image: url("img/curry.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#OESTE h2{
+    font-family: 'anton',sans-serif;
+    font-size: 100px ;
+    color: #042b47;
+    text-align: right;
+    margin-top: 0;
+    margin-right: 1%;
+}
+#OESTE h3{
+    margin-left: 50%;
+    text-align: center;
+    background: #042b47;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'cantarell',sans-serif;
+    margin-right: 1%;
+}
+#OESTE ol{
+    background-color:rgba(255,255,255,.5);
+    list-style-type: upper-roman;
+    margin-left: 50%;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20pt;
+    margin-right: 1%;
+}
+#OESTE li{
+    font-family:'cantarell',sans-serif;
+    border-bottom: 2px solid white;
+    font-size: 16pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#ESTE{
+    background:#b0d8f5;
+    background-image: url("img/lebron.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+#ESTE h2{
+    font-family: 'anton',sans-serif;
+    font-size: 100px;
+    color: #660c26;
+    margin-top: 0;
+    margin-left: 1%;
+}
+#ESTE h3{
+    margin-right: 50%;
+    text-align: center;
+    background: #660c26;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'cantarell',sans-serif;
+    margin-left: 1%;
+}
+#ESTE ol {
+    background-color: rgba(255, 255, 255, .5);
+    list-style-type: upper-roman;
+    margin-right: 50%;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20pt;
+    margin-left: 1%;
+}
+#ESTE li {
+    font-family: 'cantarell', sans-serif;
+    border-bottom: 2px solid white;
+    font-size: 16pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.num{
+    color: #2c6624;
+    font-size: 15pt;
+    border: dotted;
+}
